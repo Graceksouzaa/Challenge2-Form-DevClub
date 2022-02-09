@@ -1,0 +1,102 @@
+/* [x] retirar todas as tags <br> e manter o layout sem alterações visuais
+[x] tirar o <fieldset> e manter o layout sem alterações visuais
+     ao passar o mouse sobre os botões de limpar e enviar dados:
+[x] trocar a cor do fundo
+[x] aumentar o botão
+[x] trocar a cor da letra
+[x] trocar a cor da borda
+[x] o cursor terá que ser o da ''mãozinha''
+
+[x] alterar cores da borda de todos os inputs
+[x] alterar a fonte do projeto para 'Nunito'
+[x] alterar o background do formulário
+[x] alterar a cor e tamanho dos textos dos Labels */
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+   }
+
+body{
+    border-width: 3px;
+    border-style: solid;
+    border-color:#529BA3;
+    border-radius: 50px;
+    margin: 10px 100px 10px 20px;
+    padding: 8px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #f7a0a3, #e2cae1)
+}
+
+.title-register{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px 0 20px 20px;
+    color: #529BA3;
+}
+
+.container1{
+    font-size: 22px;
+    color:#529BA3;
+    font-weight: bolder;
+    line-height: 30px;   
+}
+
+label{
+    display: block;
+}
+
+input{
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    border-color:#529BA3;
+    border-width: 2px;
+    background-color: #eed6d7c9;
+}
+
+
+
+textarea{
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #eed6d7c9;
+    display: block;
+}
+
+
+.buttons{
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    border-color:#529BA3;
+    border-width: 20px;
+}
+
+button{
+    border-radius: 2px;
+    font-size: 14px;
+    text-align: center;
+    border-color: #529BA3;
+    border-width: 2px;
+    padding: 5px;
+    margin: 20px 0 20px 30px;
+    display: inline;
+    background-color: #eed6d7c9;
+    font-weight: bolder;
+    color: gray;
+}
+
+button:hover{
+    background-color: #529BA3;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    width: 80px;
+    height: 40px;
+}
