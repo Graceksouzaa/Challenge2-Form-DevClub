@@ -25,7 +25,7 @@ body{
     border-style: solid;
     border-color:#529BA3;
     border-radius: 50px;
-    margin: 10px 100px 10px 20px;
+    margin: 10px 900px 10px 100px;
     padding: 8px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to top, #f7a0a3, #e2cae1)
@@ -57,9 +57,23 @@ input{
     border-color:#529BA3;
     border-width: 2px;
     background-color: #eed6d7c9;
+    display: block;
 }
 
+.tittle-social{
+    display: grid;
+}
+.checkbox-social {
+    display: inline-flex;
+}
 
+.tittle-genger {
+    display: grid;
+}
+
+.radio-genger{
+    display: inline-flex;
+}
 
 textarea{
     border-radius: 8px;

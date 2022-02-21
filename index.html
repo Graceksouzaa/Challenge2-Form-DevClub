@@ -36,59 +36,56 @@
                 <input type="data" name="data-nascimento" required>
             </label>
 
-            <label>Onde possui conta ?
-                <div>
+            <label class="tittle-social">Onde possui conta ?
+                <div class="checkbox-social">
                     <label class="input-inline">
-                         <input type="checkbox" name="Facebook">
-                         Facebook
+                        Facebook<input type="checkbox" name="Facebook">
                     </label>
 
                     <label class="input-inline">
-                         <input type="checkbox" name="Instagram">
-                         Instagram
+                        Instagram<input type="checkbox" name="Instagram">
                     </label>
 
                     <label class="input-inline">
-                        <input type="checkbox" name="Youtube">
-                        Youtube
+                        Youtube<input type="checkbox" name="Youtube">
                     </label>
                 </div>
             </label>
 
-            <label>Sexo
-            <div>
-                <label class="input-inline">
-                    Feminino <input type="radio" name="sexo" value="Feminino">
-                </label>
-                <label class="input-inline">
-                    Masculino <input type="radio" name="sexo" value="Masculino">
-                </label>
-            </div>
+            <label class="tittle-genger">Sexo
+                <div class="radio-genger">
+                    <label class="input-inline">
+                        Feminino <input type="radio" name="sexo" value="Feminino">
+                    </label>
+                    
+                    <label class="input-inline">
+                        Masculino <input type="radio" name="sexo" value="Masculino">
+                    </label>
+                </div>
 
-            <label>Cor dos Olhos:
-                <input type="color" name="cor-dos-olhos">
+                <label>Cor dos Olhos:
+                    <input type="color" name="cor-dos-olhos">
+                </label>
+
+                <label>Biografia
+                    <textarea placeholder="Escreva aqui sua biografia"></textarea>
+                </label>
+
+                <labe>Foto do Perfil:
+                    <input type="file" name="foto-perfil" accept="image/*">
             </label>
 
-            <label>Biografia
-                <textarea placeholder="Escreva aqui sua biografia"></textarea>
+            <label>Telefone:
+                <input type="tel" name="telefone" placeholder="Digite seu telefone">
             </label>
 
-            <labe>Foto do Perfil:
-                <input type="file" name="foto-perfil" accept="image/*">
-                </label>
+            <label>Link do Perfil do Facebook:
+                <input type="url" name="url" placeholder="Adicione o link">
+            </label>
 
-                <label>Telefone:
-                    <input type="tel" name="telefone" placeholder="Digite seu telefone">
-                </label>
-
-                <label>Link do Perfil do Facebook:
-                    <input type="url" name="url" placeholder="Adicione o link">
-                </label>
-
-                <label>Senha:
-                    <input type="password" name="senha" minlength="6" maxlength="8" placeholder="Insira sua senha"
-                        required>
-                </label>
+            <label>Senha:
+                <input type="password" name="senha" minlength="6" maxlength="8" placeholder="Insira sua senha" required>
+            </label>
         </div>
 
         <button type="reset" name="limpar">Limpar</button>
